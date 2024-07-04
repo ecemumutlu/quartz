@@ -7,9 +7,9 @@
 - [ ] Pytorch transformer implementation bakabilrisin
 - [ ] self-attention yapısına bakabilirsin multihead
 - [ ] deepmind rl dersi #low
-- [ ] sorularını not al yarın sor 
-- [ ] 
-
+- [ ] Tensorflow Neural Machine Translation (seq2seq) Tutorial #ask
+- [ ] Jalammar attention
+- [ ] Llama-1
 
 
 ## General 
@@ -17,4 +17,4 @@
 - [ ]  RAG işleme yapılarına bak
 - [ ] RAG için embedding modelleri için video: [https://www.youtube.com/watch?v=XHY-3FzaLGc](https://www.youtube.com/watch?v=XHY-3FzaLGc "https://www.youtube.com/watch?v=xhy-3fzalgc")
 
-[[seq2seq_7.mp4]]
+
