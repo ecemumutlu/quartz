@@ -25,6 +25,7 @@ kanban-plugin: board
 
 - [ ] Jalammar transformers
 - [ ] Llama-1
+- [ ] Attention is all you need
 
 
 ## Done
