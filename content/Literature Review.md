@@ -5,7 +5,8 @@
 - [x] [[4-lms_are_few_shot_learners.pdf]] + https://www.youtube.com/watch?v=SY5PvZrJhLE&t=1888s&ab_channel=YannicKilcher (first 30 minutes)
 - [ ] [[5-lms_are_unsupervised_multitask_learners.pdf]]
 - [ ] 6-llama3
-- [ ]  https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/
+- [x]  https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/ 
+	- [x] A friendly introduction to Recurrent Neural Networks: https://www.youtube.com/watch?v=UNmqTiOnRfg
 - [ ] https://jalammar.github.io/illustrated-transformer/
 - [ ] jury paper
 - [ ] BERT paper
@@ -27,3 +28,7 @@
 		- Task description
 		- One or more examples ( ... -> ...)
 		- Prompt (... -> ?)
+
+
+### Jalammar Attention Blogpost
+ - Attention mechanism visualization: [[seq2seq_7.mp4]]
