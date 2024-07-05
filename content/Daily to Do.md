@@ -8,7 +8,7 @@
 - [ ] self-attention yapısına bakabilirsin multihead
 - [ ] deepmind rl dersi #low
 - [ ] Tensorflow Neural Machine Translation (seq2seq) Tutorial #ask
-- [ ] Jalammar attention
+- [x] Jalammar attention
 - [ ] Llama-1
 
 
