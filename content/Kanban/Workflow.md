@@ -18,12 +18,14 @@ kanban-plugin: board
 - [ ] embedding modellerine ve bu modeller nasıl ve ne gibi bir veriset ile train/finetune oluyor konularına da bakabilirsin #meetingNotes
 - [ ] Tensorflow Neural Machine Translation (seq2seq) Tutorial #ask
 - [ ] self-attention yapısına bakabilirsin multihead #meetingNotes
+- [ ] [Topic 4: What is JEPA?](https://www.turingpost.com/p/jepa)
+- [ ] ML Döngüsü Nedir ve Ne Yapıyoruz? #educationalMeeting
+- [ ] Intro to DL book #ask
 
 
 ## In Progress
 
 - [ ] Llama-1
-- [ ] Coursera find a course #ask
 
 
 ## Done
@@ -32,6 +34,7 @@ kanban-plugin: board
 - [ ] RNN Intro [Video](https://www.youtube.com/watch?v=UNmqTiOnRfg)
 - [ ] [Jalammar transformers](https://jalammar.github.io/illustrated-transformer/)
 - [ ] Attention is all you need
+- [ ] Coursera find a course #ask
 
 
 
