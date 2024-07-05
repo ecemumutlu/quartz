@@ -11,7 +11,6 @@ kanban-plugin: board
 
 ## To Do
 
-- [ ] [[3-llama2.pdf|Llama-2]]
 - [ ] Llama-3
 - [ ] [[5-lms_are_unsupervised_multitask_learners.pdf]]
 - [ ] RAG işleme yapılarına bak #meetingNotes
@@ -21,11 +20,16 @@ kanban-plugin: board
 - [ ] [Topic 4: What is JEPA?](https://www.turingpost.com/p/jepa)
 - [ ] ML Döngüsü Nedir ve Ne Yapıyoruz? #educationalMeeting
 - [ ] Intro to DL book #ask
+- [ ] sentence bert
+- [ ] GTE (generalized text embeddings)
+- [ ] [Sentence Transformers](https://osanseviero.github.io/hackerllama/blog/posts/sentence_embeddings/#sentence-transformers)
+- [ ] [Training and Finetuning Embedding Models with Sentence Transformers v3](https://huggingface.co/blog/train-sentence-transformers)
+- [ ] [Building LLM Applications: Introduction (Part 1)](https://medium.com/@vipra_singh/building-llm-applications-introduction-part-1-1c90294b155b#4d28)
 
 
 ## In Progress
 
-- [ ] Llama-1
+- [ ] [[3-llama2.pdf|Llama-2]]
 
 
 ## Done
@@ -35,6 +39,8 @@ kanban-plugin: board
 - [ ] [Jalammar transformers](https://jalammar.github.io/illustrated-transformer/)
 - [ ] Attention is all you need
 - [ ] Coursera find a course #ask
+- [ ] Coursera module-1 week-2
+- [ ] [[2-llama1.pdf|Llama-1]]
 
 
 
