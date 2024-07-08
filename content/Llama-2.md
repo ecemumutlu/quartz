@@ -1,0 +1,18 @@
+### [[3-llama2.pdf | LLama-2]]
+ - **Tokenizer:** We use the same tokenizer as Llama 1; it employs a bytepair encoding (BPE) algorithm (Sennrich et al., 2016) using the implementation from SentencePiece (Kudo and Richardson, 2018). As with Llama 1, we split all numbers into individual digits and use bytes to decompose unknown UTF-8 characters. The total vocabulary size is 32k tokens.
+ - GQA: grouped-query-attention
+	 - tüm kelimelere tek tek bakmak yerine kelimeleri öncesinde gruplayıp sadece istediğim grupla alakalı olan kelimelerde attention arıyorum
+ - LLama2 ve LLama1 arasındaki farklar:
+	 - ![[Pasted image 20240708152259.png]] 
+	 - We use the standard transformer architecture (Vaswani et al., 2017), apply pre-normalization using RMSNorm (Zhang and Sennrich, 2019), use the SwiGLU activation function (Shazeer, 2020), and rotary positional embeddings (RoPE, Su et al. 2022). The primary architectural differences from Llama 1 include increased context length and grouped-query attention (GQA).
+	 - Specifically, we performed more robust data cleaning, updated our data mixes, trained on 40% more total tokens, doubled the context length, and used grouped-query attention (GQA) to improve inference scalability for our larger models.
+ - Llama1 ve Llama2 karşılaştırma
+	 - ![[Pasted image 20240708160140.png]]
+ - **LLama2 Chat** 
+ - SFT Supervised Fine Tuning 
+	 - Instruction tuning + RLHF
+	 - Supervised fine-tuning + reward modeling + RLHF + Ghost Attention (GAtt)
+	 - Fine-Tuning Details. For supervised fine-tuning, we use a **cosine learning rate schedule** with an **initial learning rate of 2 × 10−5** , a **weight decay of 0.1**, a **batch size of 64**, and **a** **sequence length of 4096 tokens**. 
+	 - For the fine-tuning process, each sample consists of a prompt and an answer. To ensure the model sequence length is properly filled, we concatenate all the prompts and answers from the training set. A special token is utilized to separate the prompt and answer segments. ==We utilize an autoregressive objective and zero-out the loss on tokens from the user prompt, so as a result, we backpropagate only on answer tokens.== Finally, we fine-tune the model for 2 epochs.
+		 - **Backpropagate Only on Answer Tokens**: Backpropagation is the process used to update the model's weights based on the loss. By ignoring the loss on the user prompt tokens, they ensure that the model's weights are updated only based on the errors made in generating the response (answer tokens). This means that the model learns to improve its responses rather than the way it processes the prompts.
+	-  
