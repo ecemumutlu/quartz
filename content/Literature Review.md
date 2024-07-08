@@ -22,5 +22,9 @@
 ### [[LLMs are few shot learners]] 
 ### [[Jalammar Attention Blogpost]] 
 ### [[Jalammar Transformers Blogpost]] 
-### [[Llama-1]] 
-### [[Llama-2]] 
+### Llama family
+
+#### [[Llama-1]] 
+#### [[Llama-2]] 
+
+![[Pasted image 20240708174928.png]]

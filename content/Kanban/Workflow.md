@@ -9,7 +9,7 @@ kanban-plugin: board
 - [ ] deepmind rl dersi #low
 
 
-## To Do
+## To do
 
 - [ ] Llama-3
 - [ ] [[5-lms_are_unsupervised_multitask_learners.pdf]]
@@ -29,6 +29,8 @@ kanban-plugin: board
 ## In Progress
 
 - [ ] [[3-llama2.pdf|Llama-2]]
+- [ ] Llama2 summary
+- [ ] Llama1 and Llama2 [video](https://www.youtube.com/watch?v=Mn_9W1nCFLo&t=382s)
 - [ ] [Building LLM Applications: Introduction (Part 1)](https://medium.com/@vipra_singh/building-llm-applications-introduction-part-1-1c90294b155b#4d28) #meetingNotes
 - [ ] [Sentence Transformers](https://osanseviero.github.io/hackerllama/blog/posts/sentence_embeddings/#sentence-transformers) #meetingNotes
 

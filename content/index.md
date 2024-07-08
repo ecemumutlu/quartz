@@ -1,6 +1,5 @@
 ---
 title: Welcome to Quartz
-kanban-plugin: board
 ---
 
 
