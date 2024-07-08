@@ -1,10 +1,10 @@
 ---
 title: Welcome to Quartz
-kanban-plugin: "[[Workflow]]"
+kanban-plugin: board
 ---
 
 
 
-[[Literature Review]]
-[[Workflow]]
-[[Coursera DLS Course Notes]]
+ - [[Literature Review]]
+ - [[Workflow]]
+ - [[Coursera DLS Course Notes]]
