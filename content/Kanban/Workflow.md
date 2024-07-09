@@ -30,9 +30,9 @@ kanban-plugin: board
 
 - [ ] [[3-llama2.pdf|Llama-2]]
 - [ ] Llama2 summary
-- [ ] Llama1 and Llama2 [video](https://www.youtube.com/watch?v=Mn_9W1nCFLo&t=382s)
 - [ ] [Building LLM Applications: Introduction (Part 1)](https://medium.com/@vipra_singh/building-llm-applications-introduction-part-1-1c90294b155b#4d28) #meetingNotes
 - [ ] [Sentence Transformers](https://osanseviero.github.io/hackerllama/blog/posts/sentence_embeddings/#sentence-transformers) #meetingNotes
+- [ ] Skim through [[8-LayerNormalizationInTheTransformer.pdf|layer norm]]
 
 
 ## Done
@@ -48,6 +48,9 @@ kanban-plugin: board
 - [ ] Byte-pair encoding: https://www.geeksforgeeks.org/byte-pair-encoding-bpe-in-nlp/
 - [ ] Llama1 summary
 - [ ] [Llama2 related GQA](https://medium.com/@raisomya360/demystifying-sliding-window-grouped-query-attention-a-simpler-approach-to-efficient-neural-6fb03b7d021f)
+- [ ] module1 week3 [assignment](https://github.com/abdur75648/Deep-Learning-Specialization-Coursera/blob/main/Neural%20Networks%20and%20Deep%20Learning/Week3/Planar%20data%20classification%20with%20one%20hidden%20layer/Planar_data_classification_with_onehidden_layer_v6c.ipynb) inceleme
+- [ ] Coursera DLS module1 week4
+- [ ] IBM LLama2 [blogpost](https://www.ibm.com/topics/llama-2)
 
 
 

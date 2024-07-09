@@ -29,3 +29,28 @@
  - Human Preference Data Collection
 	 - Reward için binary comparison protocol uygulanıyor
 	 - Annotator bir prompt yazıyor ve farklı iki modelin ürettiği cevaplardan birini seçmesi isteniyor. Seçtiği model response'u ne derece diğerine üstün bulduğunu belirtiyor: significantly better, better, slightly better, or negligibly better/ unsure
+ - Reward Model
+	 - Input: Model response + prompt 
+	 - Output: Scalar score to indicate quality (Helpfulness and safety )
+	 - Observation -> the two of them are hard to catch together
+	 - Reward model weightleri pretrained chat model checkpointinden initalize etmişler
+		 - Reward model chat modeli ne bilirse bilyior
+		 - Böyle information mismatch olmayacak -> hallucinationlar engellenmiş oluyor
+	 - Loss function:
+		 - ![[Pasted image 20240709145201.png]]
+		 - "we convert our collected pairwise human preference data into a binary ranking label format (i.e., chosen & rejected) and enforce the chosen response to have a higher score than its counterpart."
+		 - rθ (x, y): is the scalar score output for prompt x and completion y with model weights θ. 
+		 - yc: the preferred response that annotators choose 
+		 - yr: the rejected counterpart.
+		 -  m(r): the margin, a discrete function of the preference rating.
+			 - Naturally, we use a large margin for pairs with distinct responses, and a smaller one for those with similar responses
+		 - Results:
+			 - ![[Pasted image 20240709151629.png]]
+			 - "For GPT-4, we prompt with a zero-shot question “Choose the best answer between A and B,” where A and B are the two responses for comparison." ![[Pasted image 20240709151842.png]]
+	 - Fine tuning:
+		 - PPO (Proximal Policy Optimization)
+		 - Rejection Sampling Fine Tuning
+		 - Burada genel RL ile alakalı fine-tuning processleri anlatılmış ama çok anlayamadım #ask 
+	 - GAtt (Ghost Attention)
+		 - Bir prompt verdiğimde bunu tüm konuşma boyunca uygulmaasını istiyorum ama bir iki mesajdan sonra unutuyor -> solution: GAtt
+		 - Çeşitli promptları o ana kadarki tüm input output pairlarinin başına koyarak augmente ediyor ve SFT yapıyor

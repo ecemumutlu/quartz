@@ -73,3 +73,28 @@
 ![[Pasted image 20240708121106.png]]
 
 Do not initialize weights to 0 -> no learning at all
+
+
+![[Pasted image 20240709102203.png]]
+
+
+![[Pasted image 20240709103609.png]]
+
+![[Pasted image 20240709103805.png]]
+
+It is perfectly okey to have a for loop to calculate activation functions when there are more than one hidden layers.
+
+![[Pasted image 20240709110521.png]]
+
+![[Pasted image 20240709111409.png]]
+
+![[Pasted image 20240709112558.png]]
+
+![[Pasted image 20240709113516.png]]
+
+cache $Z^{[l]}, W^{[l]}, b^{[l]}$ to be used in backward propagation
+
+![[Pasted image 20240709114442.png]]
+
+![[Pasted image 20240709115453.png]]
+
