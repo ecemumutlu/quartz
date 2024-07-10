@@ -1,3 +1,4 @@
+[[Coursera Deep Learning Spec Course Module 1.pdf]]
 
 ![[Pasted image 20240705141226.png]]
 
