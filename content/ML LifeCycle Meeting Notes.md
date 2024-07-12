@@ -80,3 +80,29 @@ Elle threshold koyulabilir
 Modelin loglarına bakarak model performansını sürekli takip etmeliyiz.
 Modeli tekrar eğitmek gerekebilir
 	Best practice: Son 3 ayda toplanan datayı kullanarak tekrar eğitebilirsin ama içine geçmişteki datasetinden de veri eklemelisin
+
+
+
+
+
+Route LLM
+	Mesela başta küçük bir model querylere cevap veriyor
+	Bu küçük modelin errorlarını hızlı ölçebilen başka bir sistem var
+	Error arttıysa daha büyük modelin querylere cevap vermesini sağlıyoruz
+
+Geoffrey Hinton -> deep learning babası
+	ileriye gitmek istiyorsanız benden farklı düşünün
+
+**think out of the box**
+önümüzdeki hafta çarşamba perşembe gibi çözümü üzerine konuşalım
+one vs. all üstüne konuş -> çok güçlü bir makinemiz yok
+bir modelleme yapmaktan kaçınmaya çalış
+sınıflandırma
+tür sayısı sürekli artıyor
+hayvanlar arası etkileşim -> anlık cinsi tahmin edilsin
+tek sefer para ödüycem
+sistemin yeni türleri öğrenebilmesini istiyorum
+	yei türle ilgili al sana 300 fotoğraf
+
+RAG yapısına bak
+sınıf boyuutnda kendisini güncelleyebilecek bir sistem tasarlamak istsek nasıl tasarlardık

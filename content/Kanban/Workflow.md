@@ -30,8 +30,10 @@ kanban-plugin: board
 
 - [ ] [[3-llama2.pdf|Llama-2]]
 - [ ] [Building LLM Applications: Introduction (Part 1)](https://medium.com/@vipra_singh/building-llm-applications-introduction-part-1-1c90294b155b#4d28) #meetingNotes
-- [ ] [Sentence Transformers](https://osanseviero.github.io/hackerllama/blog/posts/sentence_embeddings/#sentence-transformers) #meetingNotes
 - [ ] Skim through [[8-LayerNormalizationInTheTransformer.pdf|layer norm]]
+- [ ] micro editor
+- [ ] ssh configs
+- [ ] virtual env
 
 
 ## Done
@@ -53,6 +55,7 @@ kanban-plugin: board
 - [ ] Coursera DLS module1 week4 assignment
 - [ ] Coursera DLS module2 week1
 - [ ] Llama2 summary
+- [ ] [Sentence Transformers](https://osanseviero.github.io/hackerllama/blog/posts/sentence_embeddings/#sentence-transformers) #meetingNotes
 
 
 
