@@ -215,26 +215,6 @@ Because batch norm zeroes out the mean, if we use batch norm for hidden units, w
 
 
 
+![[Pasted image 20240718100127.png]]
 
-
-Tüm yaptıklarıma dair detaylı linkler [burada](http://ecemumutlu.github.io/quartz/ "http://ecemumutlu.github.io/quartz/") Workflow altından incelenebilir.
-
-**Done**
-
-- ⁠Coursera DLS module2 week3 bitti
-- RAG blogpost part2 ve part3 bitti.
-
-**In progress**
-
-- Preliminary araştırma raporu için ara ara okunan paperlardan değerli bilgileri topluyorum.
-- RAG araştırma raporu 
-- ML lifecycle sorusu üzerine araştırma
-**Next Step**
-
-- Llama3
-- Sentence transformers implementation planlama
-- Sentence transformers raporu
-- RAG blogpost part4
-- Coursera module2 week1 assignment
-- Coursera module2 week2 assignment
 
