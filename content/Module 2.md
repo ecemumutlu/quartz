@@ -218,3 +218,9 @@ Because batch norm zeroes out the mean, if we use batch norm for hidden units, w
 ![[Pasted image 20240718100127.png]]
 
 
+# Week3: multiclass classification
+
+![[Pasted image 20240718105128.png]]
+
+
+![[Pasted image 20240718113732.png]]

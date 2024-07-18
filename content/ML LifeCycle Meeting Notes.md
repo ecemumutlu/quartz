@@ -106,3 +106,34 @@ sistemin yeni türleri öğrenebilmesini istiyorum
 
 RAG yapısına bak
 sınıf boyuutnda kendisini güncelleyebilecek bir sistem tasarlamak istsek nasıl tasarlardık
+
+
+### Concept Drift
+![[Pasted image 20240718160548.png]]
+
+
+
+Problems of each newcoming species:
+	store costs grow linearly with  new tasks
+
+Class Incremental scenarios
+ıncremental class learning
+	shared features with new classes
+	![[Pasted image 20240718191449.png]]
+
+
+Incremental Learning to avoid catastrophic forgeting:
+- **Catastrophic Forgetting**: The problem where the model forgets old knowledge when trained on new data.
+- **Replay Buffer**: A subset of old data used during training with new data to mitigate catastrophic forgetting.
+- 
+	Step 1: Train the Base Model
+		Initially, train a model using the data for the 1000 species. This will serve as the starting point.
+	Step 2: Fine-tuning with New Data
+		When a new species arrives, fine-tune the model with the new data. This involves a few steps:
+		1. **Data Preparation**: Collect and preprocess 300 photos of the new species.
+		2. **Data Augmentation**: Increase the diversity of the new data using augmentation techniques (e.g., rotations, flips).
+		3. **Replay Buffer**: Maintain a small buffer of images from previously known species to train alongside the new species data.
+		==Managing Catastrophic Forgetting==
+		To prevent the model from forgetting previously learned species:
+		1. **Replay Buffer**: Always include a small subset of old data during training with new data. This helps the model retain its knowledge of old species.
+		2. **Regularization Techniques**: Use techniques like Elastic Weight Consolidation (EWC) which penalize large changes in the model weights to preserve old knowledge.

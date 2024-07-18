@@ -31,6 +31,7 @@ kanban-plugin: board
 - [ ] Skim through [[8-LayerNormalizationInTheTransformer.pdf|layer norm]]
 - [ ] virtual env
 - [ ] ml lifecycle problemi üzerine düşün
+- [ ] sentence transformer eğitmek için kullanılmış bir dataset bul #meetingNotes şu formatta kulllanıldı, böyle böyle bir şeymiş vs, türkçe dataset bulamayabilirsin şimdilik ingilizce de bakabilrisin
 
 
 ## Done
@@ -60,6 +61,7 @@ kanban-plugin: board
 - [ ] [Training and Finetuning Embedding Models with Sentence Transformers v3](https://huggingface.co/blog/train-sentence-transformers) #meetingNotes
 - [ ] [Building LLM Applications: Introduction (Part 1)](https://medium.com/@vipra_singh/building-llm-applications-introduction-part-1-1c90294b155b#4d28) #meetingNotes
 - [ ] RAG [videosu](https://www.youtube.com/watch?v=tcqEUSNCn8I) izlendi
+- [ ] coursera dls module2 week3
 
 
 ## To be planned
