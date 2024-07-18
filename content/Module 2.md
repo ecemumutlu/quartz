@@ -87,3 +87,154 @@ While randomly initializing weights, we normally multiply the values with 0.01. 
 
 Farklı activation functionlar için farklı initialization stratejileri uygulanabilir. Bu aşağıdaki çözümler vanishing/exploiding gradient problemini çözüyor.
 ![[Pasted image 20240711151202.png]]
+
+
+
+# Week2: Optimization Algorithms
+Daha hızlı train etmek ve daha hızlı sonuç almak adına optimization algoritmalarını kullanıyoruz.
+
+## Mini-batch
+![[Pasted image 20240716084235.png]]
+
+
+![[Pasted image 20240716084805.png]]
+
+
+
+![[Pasted image 20240716085005.png]]
+
+![[Pasted image 20240716085649.png]]
+
+
+![[Pasted image 20240716085902.png]]
+
+![[Pasted image 20240716090321.png]]
+
+![[Pasted image 20240716090758.png]]
+
+
+
+Depending on the $\beta$ , we average over $\frac{1}{1 - \beta}$ days/units
+
+![[Pasted image 20240716094105.png]]
+
+![[Pasted image 20240716094555.png]]
+
+V_0 = 0 introduces a bias that reduces the initial average values
+
+
+
+## Gradient Descent with momentum
+Gradient descent update kısmında dw'yi farklı updateliyorsun.
+
+![[Pasted image 20240716101302.png]]
+
+![[Pasted image 20240716101551.png]]
+
+soldaki kullanım tercih edilmeli
+
+## RMSProp
+
+Gradient descent update ksımında dw 'yi böleceğin bir değer hesaplıyorsun.
+
+![[Pasted image 20240716102308.png]]
+
+
+
+## Adam (Adaptive moment estimation) optimizer
+
+RMSProp + momentum  = Adam
+
+
+![[Pasted image 20240716103047.png]]
+
+
+![[Pasted image 20240716103505.png]]
+
+
+## Learning Rate Decay
+decay rate below becomes another hyperparameter
+
+![[Pasted image 20240716103544.png]]
+slowly reduce alpha
+
+![[Pasted image 20240716105803.png]]
+
+![[Pasted image 20240716110125.png]]
+
+## Local optima problem
+When the derivative is close to 0 for a long time, it slow down the learning -> plateaus
+most points of zero gradient in a cost function are saddle points, not local minimums
+
+![[Pasted image 20240716111027.png]]
+
+
+
+# Week3: HyperParameter Tuning
+
+
+![[Pasted image 20240718082724.png]]
+
+
+![[Pasted image 20240718082734.png]]
+
+
+![[Pasted image 20240718082858.png]]
+
+Büyük dikdörtgen içinde en iyi perform eden değerleri bulduktan sonra bu noktaları merkeze alarak daha küçük bir dörtgende daha sıkı bir arama yapılabilir.
+
+
+## Scaling while hyperparameter tuning
+![[Pasted image 20240718083522.png]]
+
+mesela learning rate için arama yaparken logaritmik scale'de uniform randomized bir search yapmak daha makul..
+
+Yani $a = log_{10}0.0001 < r < b = log_{10}1$ scalingde r içinbir randomiation yapmalıyız.
+
+
+![[Pasted image 20240718084001.png]]
+
+Aynı şekilde burada da beta değerinin 0.9 olması ile 0.999 olması arasında çok fark var. 0.9 olması son 10 günlük averagea bakılıyor olması anlamına gelirken 0.999 olması son 1000 günlük average a bakılıyor olmasına denk. Bu durumda 1 - beta üzerinden logaritmik bir randomization uygulanmalı.
+
+
+# Week3: Batch normalization
+
+![[Pasted image 20240718090142.png]]
+
+eğer sadece z_norm kullanacak olsak hidden unitler için tüm değerler mean 0 ve variance 1 olacaktı. ama belki onlar için farklı bir distribution olması daha anlamlı olabilri.  O yüzden z_norm'u iki parametre ile linearization yaparak z_tilda hesaplıyoruz. 
+
+normalizing z (before activation) is much more preferred to normalizing a (after activation)
+
+![[Pasted image 20240718093603.png]]
+
+
+Because batch norm zeroes out the mean, if we use batch norm for hidden units, we dont need to learn b parameter. Instead beta parameter is enough
+![[Pasted image 20240718094154.png]]
+
+![[Pasted image 20240718094429.png]]
+
+
+
+
+
+Tüm yaptıklarıma dair detaylı linkler [burada](http://ecemumutlu.github.io/quartz/ "http://ecemumutlu.github.io/quartz/") Workflow altından incelenebilir.
+
+**Done**
+
+- ⁠Coursera DLS module2 week3 bitti
+- RAG blogpost part2 ve part3 bitti.
+
+**In progress**
+
+- Preliminary araştırma raporu için ara ara okunan paperlardan değerli bilgileri topluyorum.
+- RAG araştırma raporu 
+- ML lifecycle sorusu üzerine araştırma
+**Next Step**
+
+- Llama3
+- Sentence transformers implementation planlama
+- Sentence transformers raporu
+- RAG blogpost part4
+- Coursera module2 week1 assignment
+- Coursera module2 week2 assignment
+

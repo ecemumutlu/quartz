@@ -22,18 +22,15 @@ kanban-plugin: board
 - [ ] Intro to DL book #ask
 - [ ] sentence bert [blogpost](https://towardsdatascience.com/sbert-deb3d4aef8a4)
 - [ ] GTE (generalized text embeddings)
-- [ ] [Training and Finetuning Embedding Models with Sentence Transformers v3](https://huggingface.co/blog/train-sentence-transformers) #meetingNotes
 - [ ] [Building with Instruction-Tuned LLMs: A Step-by-Step Guide](https://www.youtube.com/watch?v=eTieetk2dSw)
+- [ ] Tensor kütüphanesi dokümentasyonu oku
 
 
 ## In Progress
 
-- [ ] [[3-llama2.pdf|Llama-2]]
-- [ ] [Building LLM Applications: Introduction (Part 1)](https://medium.com/@vipra_singh/building-llm-applications-introduction-part-1-1c90294b155b#4d28) #meetingNotes
 - [ ] Skim through [[8-LayerNormalizationInTheTransformer.pdf|layer norm]]
-- [ ] micro editor
-- [ ] ssh configs
 - [ ] virtual env
+- [ ] ml lifecycle problemi üzerine düşün
 
 
 ## Done
@@ -54,14 +51,31 @@ kanban-plugin: board
 - [ ] IBM LLama2 [blogpost](https://www.ibm.com/topics/llama-2)
 - [ ] Coursera DLS module1 week4 assignment
 - [ ] Coursera DLS module2 week1
+- [ ] [[3-llama2.pdf|Llama-2]]
 - [ ] Llama2 summary
 - [ ] [Sentence Transformers](https://osanseviero.github.io/hackerllama/blog/posts/sentence_embeddings/#sentence-transformers) #meetingNotes
+- [ ] ssh configs
+- [ ] micro editor
+- [ ] Coursera DLS module2 week2
+- [ ] [Training and Finetuning Embedding Models with Sentence Transformers v3](https://huggingface.co/blog/train-sentence-transformers) #meetingNotes
+- [ ] [Building LLM Applications: Introduction (Part 1)](https://medium.com/@vipra_singh/building-llm-applications-introduction-part-1-1c90294b155b#4d28) #meetingNotes
+- [ ] RAG [videosu](https://www.youtube.com/watch?v=tcqEUSNCn8I) izlendi
+
+
+## To be planned
+
+- [ ] sentence transformer environmentında model train etme/inference
+- [ ] baştan sona türkçe sentence transformers model eğitimi
+- [ ] llama3
+- [ ] llama.cpp ve llama.cpp-python kütüphaneleri incelensin
+- [ ] llama.cpp ve gguf formatlarını incele
+- [ ] quantization araştırması - lmstudio
 
 
 
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false]}
+{"kanban-plugin":"board","list-collapse":[false,false,false,false,false]}
 ```
 %%
