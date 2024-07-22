@@ -31,7 +31,6 @@ kanban-plugin: board
 - [ ] Skim through [[8-LayerNormalizationInTheTransformer.pdf|layer norm]]
 - [ ] virtual env
 - [ ] sentence transformer eğitmek için kullanılmış bir dataset bul #meetingNotes şu formatta kulllanıldı, böyle böyle bir şeymiş vs, türkçe dataset bulamayabilirsin şimdilik ingilizce de bakabilrisin
-- [ ] "bi-encoder" ve "cross-encoder" kavramları.
 
 
 ## Done
@@ -64,6 +63,7 @@ kanban-plugin: board
 - [ ] coursera dls module2 week3
 - [ ] ml lifecycle problemi üzerine düşün
 - [ ] dls module2 week1 assignment
+- [ ] ["bi-encoder" ve "cross-encoder" ](https://www.sbert.net/examples/applications/cross-encoder/README.html)kavramları.
 
 
 ## To be planned

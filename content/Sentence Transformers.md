@@ -2,6 +2,7 @@ SBert user guide blogpost ->  https://huggingface.co/blog/train-sentence-transfo
 
 SBert documentation -> https://sbert.net/
 
+# Blogpost keypoints
 
 Steps: https://huggingface.co/blog/train-sentence-transformers#trainer
 1. Load a model to finetune with
@@ -119,3 +120,8 @@ downstream task that makes the [CLS] token very useful.
 • Max pooling can be useful to capture the most important features in a sentence. This can be very useful if particular keywords are very informative, but it might miss the subtler context. 
 
 In practice, a pooling method will be stored with the model, and you won’t have to worry about it. If there’s no method specified, mean pooling is usually a good default.
+
+# SBert document
+
+![[Pasted image 20240722143155.png]]
+
