@@ -1,7 +1,7 @@
 ### [[2-llama1.pdf | Llama-1]]
  - Llama 1 is trained on a publicly available text data. 
 	 - ![[Pasted image 20240708150958.png]]
- - "Recent work from Hoffmann et al. (2022) shows that, for a given compute budget, the best performances are not achieved by the largest mod- els, but by smaller models trained on more data." -> ulaşmaya çalıştıkları bu
+ - "Recent work from Hoffmann et al. (2022) shows that, for a given compute budget, the best performances are not achieved by the largest models, but by smaller models trained on more data." -> ulaşmaya çalıştıkları bu
  - **Tokenizer:**  We tokenize the data with the [byte-pair encoding (BPE) algorithm](https://www.geeksforgeeks.org/byte-pair-encoding-bpe-in-nlp/)  (Sennrich et al., 2015), using the implementation from [[7-SentencePiece.pdf|Sentence-Piece]]  (Kudo and Richardson, 2018). Notably, we split all numbers into individual digits, and fallback to bytes to decompose unknown UTF-8 characters.
  - Architectural Decisions:
 	 - **Pre-normalization [GPT3].** Normalde her her bir encoder decoder layer için sublayer ların son aşamasında output normalization yapılıyor. Bunun yerine her bir sub-layerın inputunu normalize etmişler #ask -> Ben burayı anlamadım yani ilk sublayer inputunu da normalize etmek dışında bir farklılık yapılmamış aslında??

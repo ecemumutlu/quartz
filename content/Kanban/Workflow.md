@@ -7,30 +7,32 @@ kanban-plugin: board
 ## Inactive
 
 - [ ] deepmind rl dersi #low
+- [ ] Intro to DL book #ask
+- [ ] [Building with Instruction-Tuned LLMs: A Step-by-Step Guide](https://www.youtube.com/watch?v=eTieetk2dSw)
+- [ ] [[5-lms_are_unsupervised_multitask_learners.pdf]]
 
 
 ## To do
 
-- [ ] Llama-3
-- [ ] [[5-lms_are_unsupervised_multitask_learners.pdf]]
-- [ ] RAG işleme yapılarına bak #meetingNotes
 - [ ] embedding modellerine ve bu modeller nasıl ve ne gibi bir veriset ile train/finetune oluyor konularına da bakabilirsin #meetingNotes
 - [ ] Tensorflow Neural Machine Translation (seq2seq) Tutorial #ask
 - [ ] self-attention yapısına bakabilirsin multihead #meetingNotes
 - [ ] [Topic 4: What is JEPA?](https://www.turingpost.com/p/jepa)
-- [ ] ML Döngüsü Nedir ve Ne Yapıyoruz? #educationalMeeting
-- [ ] Intro to DL book #ask
-- [ ] sentence bert [blogpost](https://towardsdatascience.com/sbert-deb3d4aef8a4)
 - [ ] GTE (generalized text embeddings)
-- [ ] [Building with Instruction-Tuned LLMs: A Step-by-Step Guide](https://www.youtube.com/watch?v=eTieetk2dSw)
-- [ ] Tensor kütüphanesi dokümentasyonu oku
+- [ ] sentence bert [blogpost](https://towardsdatascience.com/sbert-deb3d4aef8a4)
+- [ ] advanced python kursu
+- [ ] codebase i conda environment ına çevir
+- [ ] kodları snorlax formatına çevir
+- [ ] baştan sona sentence transformer train et
 
 
 ## In Progress
 
 - [ ] Skim through [[8-LayerNormalizationInTheTransformer.pdf|layer norm]]
 - [ ] virtual env
-- [ ] sentence transformer eğitmek için kullanılmış bir dataset bul #meetingNotes şu formatta kulllanıldı, böyle böyle bir şeymiş vs, türkçe dataset bulamayabilirsin şimdilik ingilizce de bakabilrisin
+- [ ] Tensor kütüphanesi dokümentasyonu oku
+- [ ] RAG işleme yapılarına bak #meetingNotes
+- [ ] Llama-3
 
 
 ## Done
@@ -64,6 +66,9 @@ kanban-plugin: board
 - [ ] ml lifecycle problemi üzerine düşün
 - [ ] dls module2 week1 assignment
 - [ ] ["bi-encoder" ve "cross-encoder" ](https://www.sbert.net/examples/applications/cross-encoder/README.html)kavramları.
+- [ ] ML Döngüsü Nedir ve Ne Yapıyoruz? #educationalMeeting
+- [ ] sentence transformer eğitmek için kullanılmış bir dataset bul #meetingNotes şu formatta kulllanıldı, böyle böyle bir şeymiş vs, türkçe dataset bulamayabilirsin şimdilik ingilizce de bakabilrisin
+- [ ] rag blogpost part 5
 
 
 ## To be planned
