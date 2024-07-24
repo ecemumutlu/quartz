@@ -30,3 +30,4 @@
 ![[Pasted image 20240708174928.png]]
 
 ## [[Sentence Transformers]]
+### [[BERT]]
