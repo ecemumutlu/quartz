@@ -23,7 +23,15 @@ kanban-plugin: board
 - [ ] advanced python kursu
 - [ ] codebase i conda environment ına çevir
 - [ ] kodları snorlax formatına çevir
-- [ ] baştan sona sentence transformer train et
+- [ ] BERT paper tekrar oku #order1
+- [ ] sonra sentence bert oku #order2
+- [ ] [[12-textual-sim-paper.pdf | textual similarity paper]] oku (GTE paper) #order3
+- [ ] bi-encoder ve cross-encoder yapılarını architectural incele #meetingNotes
+- [ ] [[13-llama3.pdf | Llama-3 ]] oku
+- [ ] türkçe dataseti bul #meetingNotes
+- [ ] semantic textual similarity sentence transformers baştan sona train et
+- [ ] contrastive learning araştır #meetingNotes
+- [ ] deep metric learning ve metric learning araştır #meetingNotes
 
 
 ## In Progress
@@ -32,7 +40,6 @@ kanban-plugin: board
 - [ ] virtual env
 - [ ] Tensor kütüphanesi dokümentasyonu oku
 - [ ] RAG işleme yapılarına bak #meetingNotes
-- [ ] Llama-3
 
 
 ## Done
