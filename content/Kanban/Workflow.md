@@ -23,7 +23,7 @@ kanban-plugin: board
 - [ ] advanced python kursu
 - [ ] codebase i conda environment ına çevir
 - [ ] kodları snorlax formatına çevir
-- [ ] BERT paper tekrar oku #order1
+- [ ] [[14-bert.pdf| BERT]] paper tekrar oku #order1
 - [ ] sonra sentence bert oku #order2
 - [ ] [[12-textual-sim-paper.pdf | textual similarity paper]] oku (GTE paper) #order3
 - [ ] bi-encoder ve cross-encoder yapılarını architectural incele #meetingNotes
