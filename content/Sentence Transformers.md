@@ -1,6 +1,12 @@
-SBert user guide blogpost ->  https://huggingface.co/blog/train-sentence-transformers#loss-function
+ - Sentence Transformers user guide blogpost ->  https://huggingface.co/blog/train-sentence-transformers#loss-function
 
-SBert documentation -> https://sbert.net/
+ - SBert Blogpost -> https://towardsdatascience.com/sbert-deb3d4aef8a4
+
+ - SBert documentation -> https://sbert.net/
+ 
+ - SBert paper -> [[15-sbert.pdf]]
+ 
+## [[Bi-encoders vs. Cross-encoders]]
 
 # Blogpost keypoints
 

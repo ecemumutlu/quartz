@@ -29,5 +29,9 @@
 
 ![[Pasted image 20240708174928.png]]
 
-## [[Sentence Transformers]]
+### [[Sentence Transformers]]
 ### [[BERT]]
+
+### [[Bi-encoders vs. Cross-encoders]]
+
+### [[SBERT]]

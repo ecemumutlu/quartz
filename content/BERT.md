@@ -1,8 +1,9 @@
-paper link : [[14-bert.pdf]]
-blogpost link: https://medium.com/towards-data-science/bert-3d1bf880386a
+ - **paper link** : [[14-bert.pdf]]
+ - **blogpost link**: https://medium.com/towards-data-science/bert-3d1bf880386a
 
  - Bert is a language representation model
  - BERT stands for Bidirectional Encoder Representations from Transformers
+ - BERT uses a cross-encoder. It supplies a pair of sentences as an input.
  
 ![[Pasted image 20240724233539.png]]
 
