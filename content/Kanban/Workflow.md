@@ -23,8 +23,6 @@ kanban-plugin: board
 - [ ] advanced python kursu
 - [ ] codebase i conda environment ına çevir
 - [ ] kodları snorlax formatına çevir
-- [ ] [[14-bert.pdf| BERT]] paper tekrar oku #order1
-- [ ] sonra sentence bert oku #order2
 - [ ] [[12-textual-sim-paper.pdf | textual similarity paper]] oku (GTE paper) #order3
 - [ ] bi-encoder ve cross-encoder yapılarını architectural incele #meetingNotes
 - [ ] [[13-llama3.pdf | Llama-3 ]] oku
@@ -40,6 +38,7 @@ kanban-plugin: board
 - [ ] virtual env
 - [ ] Tensor kütüphanesi dokümentasyonu oku
 - [ ] RAG işleme yapılarına bak #meetingNotes
+- [ ] sonra sentence bert oku #order2
 
 
 ## Done
@@ -76,6 +75,7 @@ kanban-plugin: board
 - [ ] ML Döngüsü Nedir ve Ne Yapıyoruz? #educationalMeeting
 - [ ] sentence transformer eğitmek için kullanılmış bir dataset bul #meetingNotes şu formatta kulllanıldı, böyle böyle bir şeymiş vs, türkçe dataset bulamayabilirsin şimdilik ingilizce de bakabilrisin
 - [ ] rag blogpost part 5
+- [ ] [[14-bert.pdf| BERT]] paper tekrar oku #order1
 
 
 ## To be planned

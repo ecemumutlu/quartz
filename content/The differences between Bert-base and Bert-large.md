@@ -1,4 +1,5 @@
-- Model size differs:
+ - ![[Pasted image 20240725095231.png]]
+ - Model size differs:
  - L : number of layers (transformer blocks)
  - H : hidden size
  - A : number self-attention heads
