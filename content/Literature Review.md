@@ -35,3 +35,5 @@
 ### [[Bi-encoders vs. Cross-encoders]]
 
 ### [[SBERT]]
+
+### [[GTE]]

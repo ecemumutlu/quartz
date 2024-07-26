@@ -18,11 +18,14 @@
 
  - Finally, three vectors _u_, _v_ and _|u-v|_ are concatenated, multiplied by a trainable weight matrix _W_ and the multiplication result is fed into the ==softmax classifier== which outputs normalised probabilities of sentences corresponding to different classes. 
  - The ==cross-entropy loss function== is used to update the weights of the model.
+ - #ask burada nasıl labellar verdiklerini göremedim. Yani NLI gibi mi incelemişler burayı it follows it does not follow vs gibi?
  - ![[Pasted image 20240725151243.png]]
 ![[Pasted image 20240725151043.png]]
 #### Regression Objective Function
   - In this formulation, after getting vectors u and v, ==the similarity score between them is directly computed by cosine similarity.== 
-  - The predicted similarity score is compared with the true value and the model is updated by using the ==MSE loss function.==
+  - The predicted similarity score is compared with the true value and the model is updated by using the ==MSE loss function.== 
+  - ![[Pasted image 20240726095030.png]]
+  - #ask şimdi burada loss hesaplarken predicted value true value ile karşılaştırılıyor diyor. True value yu nereden buluyoruz?
   - ![[Pasted image 20240725151357.png]]
 
 

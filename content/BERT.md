@@ -52,7 +52,7 @@ The model learns to predict if the second sentence logically follows the first o
 ### Training Parameters
 According to the original paper, the training parameters are the following:
 
-- Optimisator: Adam (learning rate _l_ = 1e-4, weight decay L₂ = 0.01, β₁ = 0.9, β₂ = 0.999, ε = 1e-6).
+- Optimizer: Adam (learning rate _l_ = 1e-4, weight decay L₂ = 0.01, β₁ = 0.9, β₂ = 0.999, ε = 1e-6).
 - Learning rate warmup is performed over the first 10 000 steps and then reduced linearly.
 - Dropout (α = 0.1) layer is used on all layers.
 - ==Activation function: GELU.==
@@ -74,6 +74,8 @@ e.g., my dog is hairy → my dog is apple
 e.g., my dog is hairy → my dog is hairy. 
 
 The cross-entropy loss is calculated by comparing probability distributions with the true masked tokens.
+
+#ask her sentence yalnız kendisinden önceki sentenci kullanarak bir context mi okuyor yoksa kendisinden önceki sentence'ın cls tokeni ondan da önceki sentence hakkında bilgi taşıyor mu
 
 ### How to eliminate mismatch between  pretraining and fine-tuning?
  - pretrain sırasında MLM yapıyoruz yani her inputtan en az 1 kelime [MASK] tokenini içeriyor. Ama fine-tuningde böyle bir şey söz konusu değil. 

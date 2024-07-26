@@ -23,7 +23,6 @@ kanban-plugin: board
 - [ ] advanced python kursu
 - [ ] codebase i conda environment ına çevir
 - [ ] kodları snorlax formatına çevir
-- [ ] [[12-textual-sim-paper.pdf | textual similarity paper]] oku (GTE paper) #order3
 - [ ] [[13-llama3.pdf | Llama-3 ]] oku
 - [ ] türkçe dataseti bul #meetingNotes
 - [ ] semantic textual similarity sentence transformers baştan sona train et
@@ -37,7 +36,7 @@ kanban-plugin: board
 - [ ] virtual env
 - [ ] Tensor kütüphanesi dokümentasyonu oku
 - [ ] RAG işleme yapılarına bak #meetingNotes
-- [ ] sonra sentence bert oku #order2 [link1](https://medium.com/towards-data-science/sbert-deb3d4aef8a4)
+- [ ] [[12-textual-sim-paper.pdf | textual similarity paper]] oku (GTE paper) #order3
 
 
 ## Done
@@ -76,6 +75,7 @@ kanban-plugin: board
 - [ ] rag blogpost part 5
 - [ ] [[14-bert.pdf| BERT]] paper tekrar oku #order1
 - [ ] [bi-encoder ve cross-encoder](https://osanseviero.github.io/hackerllama/blog/posts/sentence_embeddings2/) yapılarını architectural incele #meetingNotes
+- [ ] sonra sentence bert oku #order2 [link1](https://medium.com/towards-data-science/sbert-deb3d4aef8a4) [[15-sbert.pdf|link2]]
 
 
 ## To be planned
