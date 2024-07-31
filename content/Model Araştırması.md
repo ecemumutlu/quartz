@@ -1,0 +1,9 @@
+ - Hugging face içinde türkçe sentence transformerları şu şekilde listeleniyor:
+	 - ![[Pasted image 20240730162858.png]]
+	 - Bu modeller arasında en iyi modeller işaretliler. En üstteki ve en çok indirilen için hangi model olduğu explicitliy specify edilmemiş ama yılını düşününce BERTurk olma ihtimali daha yüksek
+	 - Alttaki ise ytu-ce-cosmos/turkish-medium-bert-uncased üzerine fine tune edilmiş
+	 - Tüm modellerde kullanılan datasetleri aynı: 
+		 - ![[Pasted image 20240730163153.png]]
+	 - Bunlar arasında en çok indirilen "emrecan/bert-base-turkish-cased-mean-nli-stsb-tr"
+	 - Buna dair detaylar için [[Emrecan Türkçe Sentence Transformers| şuraya]] yönelebilirsin.
+	 - niye var olan ingilizce için train edilmiş bir sentence transformer'ı pretrain edip fine tune etmiyoruz

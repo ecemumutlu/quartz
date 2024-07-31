@@ -16,27 +16,20 @@ kanban-plugin: board
 
 - [ ] embedding modellerine ve bu modeller nasıl ve ne gibi bir veriset ile train/finetune oluyor konularına da bakabilirsin #meetingNotes
 - [ ] Tensorflow Neural Machine Translation (seq2seq) Tutorial #ask
+- [ ] kodları snorlax formatına çevir
 - [ ] self-attention yapısına bakabilirsin multihead #meetingNotes
 - [ ] [Topic 4: What is JEPA?](https://www.turingpost.com/p/jepa)
-- [ ] GTE (generalized text embeddings)
-- [ ] sentence bert [blogpost](https://towardsdatascience.com/sbert-deb3d4aef8a4)
-- [ ] advanced python kursu
-- [ ] codebase i conda environment ına çevir
-- [ ] kodları snorlax formatına çevir
 - [ ] [[13-llama3.pdf | Llama-3 ]] oku
 - [ ] türkçe dataseti bul #meetingNotes
 - [ ] semantic textual similarity sentence transformers baştan sona train et
-- [ ] contrastive learning araştır #meetingNotes
 - [ ] deep metric learning ve metric learning araştır #meetingNotes
+- [ ] coursera dls module 2 week3 assignment
 
 
 ## In Progress
 
 - [ ] Skim through [[8-LayerNormalizationInTheTransformer.pdf|layer norm]]
-- [ ] virtual env
-- [ ] Tensor kütüphanesi dokümentasyonu oku
 - [ ] RAG işleme yapılarına bak #meetingNotes
-- [ ] [[12-textual-sim-paper.pdf | textual similarity paper]] oku (GTE paper) #order3
 
 
 ## Done
@@ -73,9 +66,14 @@ kanban-plugin: board
 - [ ] ML Döngüsü Nedir ve Ne Yapıyoruz? #educationalMeeting
 - [ ] sentence transformer eğitmek için kullanılmış bir dataset bul #meetingNotes şu formatta kulllanıldı, böyle böyle bir şeymiş vs, türkçe dataset bulamayabilirsin şimdilik ingilizce de bakabilrisin
 - [ ] rag blogpost part 5
+- [ ] advanced python kursu
 - [ ] [[14-bert.pdf| BERT]] paper tekrar oku #order1
 - [ ] [bi-encoder ve cross-encoder](https://osanseviero.github.io/hackerllama/blog/posts/sentence_embeddings2/) yapılarını architectural incele #meetingNotes
 - [ ] sonra sentence bert oku #order2 [link1](https://medium.com/towards-data-science/sbert-deb3d4aef8a4) [[15-sbert.pdf|link2]]
+- [ ] [[12-textual-sim-paper.pdf | textual similarity paper]] oku (GTE paper) #order3
+- [ ] sentence bert [blogpost](https://towardsdatascience.com/sbert-deb3d4aef8a4)
+- [ ] codebase i conda environment ına çevir
+- [ ] contrastive learning araştır #meetingNotes
 
 
 ## To be planned

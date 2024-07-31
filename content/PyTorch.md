@@ -1,0 +1,2 @@
+ - `torch.utils.data.DataLoader` : `DataLoader` wraps an iterable around the `Dataset`.
+ - `torch.utils.data.Dataset` : `Dataset` stores the samples and their corresponding labels

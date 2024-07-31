@@ -1,0 +1,11 @@
+ - hugging face link: https://huggingface.co/emrecan/bert-base-turkish-cased-mean-nli-stsb-tr
+ - Kullanılan datasetler:
+	 - emrecan/stsb-mt-turkish: Kendisinin önceden paylaştığı türkçe semantic-similarity-score [dataseti](https://huggingface.co/datasets/emrecan/stsb-mt-turkish)  
+	 - boun-tabi/nli_tr: NLI [dataseti](https://huggingface.co/datasets/boun-tabi/nli_tr)
+ - Kullanılan model:
+	 - BERTurk: dbmdz/bert-base-turkish-cased [modeli](https://huggingface.co/dbmdz/bert-base-turkish-cased) kullanılarak eğitilmiş
+	 - Train etmek için sentence transformers'ın kendi paylaştığı training scriptleri kullanmış
+ - Loss: `sentence_transformers.losses.CosineSimilarityLoss.CosineSimilarityLoss`
+ - Results
+	 - ![[Pasted image 20240730154214.png]]
+	 - ![[Pasted image 20240730154228.png]]

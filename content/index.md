@@ -12,3 +12,6 @@ title: Welcome to Quartz
  - [[Meeting Notes]]
  - [[Sentence Transformers]]
  - [[RAG blogpost]]
+ - [[PyTorch]]
+ - [[Türkçe Sentence Transformers]]
+ - 

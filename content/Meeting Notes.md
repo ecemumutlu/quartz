@@ -30,4 +30,22 @@ bi encoderda
  - t1 i bir berte veriyorum. t2 yi başka berte
 cross encoderda
  - t1 ve t2 yi aynı berte veriyorum
- - 
+
+
+
+30.07.2024
+metric learning aşina ol
+
+ilk etap:
+ - toy küçük bir dataset belirle şimdilik. İlk çalışıp çalışmadığına bakalım yani. Sistemin çalıştığını görmek için şimdilik ingilzice eri seti bile bulabilrisin.
+
+1. küçük bir dataseti bul
+2. türkçe pretrain edilmiş model var mı bak. Performans metriklerine bak ve inference alıp gözlem yap. BertTurk vs var sanırım ama farklı modeller de eğitilmiş.
+	1. https://huggingface.co/dbmdz/bert-base-turkish-cased
+	2. vs. vs. bul araştır
+	3. küçük modeller ulmaya çalılıyotuz hızlı olması için o yüzden llamaturk gibi bir şeyi almak mantıklı değil
+	4. araştırmanın key pointlerini not et
+3. pretrain'i devam ettir (fine tune etme)
+4. türkçe modeli embeddinge contrastive learning ile 
+	1. bunu repoya bakarak yap
+	2. 
