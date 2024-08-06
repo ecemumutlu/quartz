@@ -1,4 +1,7 @@
-
+ - Related links:
+	 - [building production ready rag](https://www.youtube.com/watch?v=TRjq7t2Ms5I)
+	 - https://medium.com/@vipra_singh/building-llm-applications-introduction-part-1-1c90294b155b#4d28
+	 - 
  - Datasetleri
 	 1. Wiki-rag dataseti: https://huggingface.co/datasets/Metin/WikiRAG-TR
 	 2. Wiki-tr dataseti (RAG ile alakası yok): https://huggingface.co/datasets/musabg/wikipedia-tr
