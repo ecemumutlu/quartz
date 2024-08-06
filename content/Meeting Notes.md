@@ -48,4 +48,24 @@ ilk etap:
 3. pretrain'i devam ettir (fine tune etme)
 4. türkçe modeli embeddinge contrastive learning ile 
 	1. bunu repoya bakarak yap
-	2. 
+
+
+
+Inference için: 
+asıl amaç rag
+bir tarafa paragraf. diğer tarafa o paragrafın cevaplayabileeceği bir soru.
+birkaç tane related birkaç tane unrelated paragraf ekle. diğer tarafa da cevaplayabilceği bir soru. Aradaki similarity score u almaya çalış
+
+
+command line dan çalıştırılabilecek bir şeyler yapabilrisin. 
+
+Minik dataseti yap wikipedia gibi kullan. Inference al türkçe modelleri üzerinde
+
+
+
+ Bi-encoder kullanalım
+ query leri yazdım ama çok istediğim gibi dönmedi.
+ soru sorduğumuzda yakın şeyler çıkmıyor ama bi-encoder + cross-encoder yapabilriz
+
+beraber in progress done board u aktiff kullan
+artık sub-task olarak açma

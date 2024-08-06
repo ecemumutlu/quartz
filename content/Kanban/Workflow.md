@@ -10,26 +10,25 @@ kanban-plugin: board
 - [ ] Intro to DL book #ask
 - [ ] [Building with Instruction-Tuned LLMs: A Step-by-Step Guide](https://www.youtube.com/watch?v=eTieetk2dSw)
 - [ ] [[5-lms_are_unsupervised_multitask_learners.pdf]]
+- [ ] Tensorflow Neural Machine Translation (seq2seq) Tutorial #ask
+- [ ] [Topic 4: What is JEPA?](https://www.turingpost.com/p/jepa)
+- [ ] [[13-llama3.pdf | Llama-3 ]] oku
 
 
 ## To do
 
-- [ ] embedding modellerine ve bu modeller nasıl ve ne gibi bir veriset ile train/finetune oluyor konularına da bakabilirsin #meetingNotes
-- [ ] Tensorflow Neural Machine Translation (seq2seq) Tutorial #ask
-- [ ] kodları snorlax formatına çevir
-- [ ] self-attention yapısına bakabilirsin multihead #meetingNotes
-- [ ] [Topic 4: What is JEPA?](https://www.turingpost.com/p/jepa)
-- [ ] [[13-llama3.pdf | Llama-3 ]] oku
-- [ ] türkçe dataseti bul #meetingNotes
 - [ ] semantic textual similarity sentence transformers baştan sona train et
 - [ ] deep metric learning ve metric learning araştır #meetingNotes
-- [ ] coursera dls module 2 week3 assignment
+- [ ] multilingual sentence transformers modelleri ile de inference denenebilir
 
 
 ## In Progress
 
 - [ ] Skim through [[8-LayerNormalizationInTheTransformer.pdf|layer norm]]
 - [ ] RAG işleme yapılarına bak #meetingNotes
+- [ ] türkçe dataseti bul #meetingNotes
+- [ ] türkçe sentence transformers inference dene
+- [ ] inference denemek için küçük bir dataseti oluştur
 
 
 ## Done
@@ -73,13 +72,15 @@ kanban-plugin: board
 - [ ] [[12-textual-sim-paper.pdf | textual similarity paper]] oku (GTE paper) #order3
 - [ ] sentence bert [blogpost](https://towardsdatascience.com/sbert-deb3d4aef8a4)
 - [ ] codebase i conda environment ına çevir
+- [ ] embedding modellerine ve bu modeller nasıl ve ne gibi bir veriset ile train/finetune oluyor konularına da bakabilirsin #meetingNotes
 - [ ] contrastive learning araştır #meetingNotes
+- [ ] coursera dls module 2 week3 assignment
+- [ ] kodları snorlax formatına çevir
+- [ ] self-attention yapısına bakabilirsin multihead #meetingNotes
 
 
 ## To be planned
 
-- [ ] sentence transformer environmentında model train etme/inference
-- [ ] baştan sona türkçe sentence transformers model eğitimi
 - [ ] llama3
 - [ ] llama.cpp ve llama.cpp-python kütüphaneleri incelensin
 - [ ] llama.cpp ve gguf formatlarını incele
