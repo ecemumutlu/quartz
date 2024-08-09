@@ -69,3 +69,33 @@ Minik dataseti yap wikipedia gibi kullan. Inference al türkçe modelleri üzeri
 
 beraber in progress done board u aktiff kullan
 artık sub-task olarak açma
+
+
+
+question ve contextleri 
+
+
+şöyle bir task açalım
+bu datayı nasıl utilize edebilriiz yeni data oluşturmadan önce bunu düşünelim
+task aç board üzerinden git
+new line lar ile context sayısını karşılaştır doğru olanları al.
+
+
+ilk task -> daha sutructured bir dataset yaratmak
+context key altında vs dictionary oluşturablirsin
+
+squad formatına bakılabilir
+dattaste converter
+uymayanlar fazlaysa uymayanlara ne yapabilriz
+
+
+~~jira boardunda belirle~~
+~~deep learning specialization kursu Module modle gidelim learning altına subtask aç~~
+
+
+Açılacak tasklar
+ - [ ] Coursera DLS module3
+ - [ ] Coursera DLS module5
+ - [ ] Datasetindeki query'nin eşşleştiği contexti bul
+ - [ ] Datasetini structured hale getir
+ - [ ] 
