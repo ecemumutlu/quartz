@@ -9,7 +9,7 @@
 	- [x] A friendly introduction to Recurrent Neural Networks: https://www.youtube.com/watch?v=UNmqTiOnRfg
 - [x] https://jalammar.github.io/illustrated-transformer/
 - [ ] jury paper
-- [ ] BERT paper
+- [x] BERT paper
 - [x] GQA:  https://medium.com/@raisomya360/demystifying-sliding-window-grouped-query-attention-a-simpler-approach-to-efficient-neural-6fb03b7d021f
 - [ ] [[7-SentencePiece.pdf]]
 - [x] Byte-pair encoding: https://www.geeksforgeeks.org/byte-pair-encoding-bpe-in-nlp/
@@ -28,6 +28,7 @@
 #### [[Llama-2]] 
 
 ![[Pasted image 20240708174928.png]]
+#### [[Llama3]]
 
 ### [[Sentence Transformers]]
 ### [[BERT]]
