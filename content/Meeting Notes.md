@@ -98,4 +98,9 @@ Açılacak tasklar
  - [ ] Coursera DLS module5
  - [ ] Datasetindeki query'nin eşşleştiği contexti bul
  - [ ] Datasetini structured hale getir
- - [ ] 
+
+
+base chunk önemli değil
+query ile retrieved chunka bakıp related olup olmadığına bak
+
+bu json dosyası verileriyle modellerle bir inference al karşılaştırma yap

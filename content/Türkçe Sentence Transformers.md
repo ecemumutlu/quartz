@@ -1,2 +1,3 @@
  - [[Model Araştırması]]
  - [[RAG için dataset araştırması]]
+ - [[Outpus.json results]]
