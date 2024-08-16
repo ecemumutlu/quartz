@@ -32,6 +32,11 @@ Multilingual - jhgan/ko-sroberta-multitask
 - Partial answers in top-5:  2
 - Relevant answers in top-5:  11
 
+Multilingual - Alibaba-NLP/gte-multilingual-base
+- Relevant answer in first answer:  13
+- Partial answers in top-5:  9
+- Relevant answers in top-5:  23
+
 
 
 
@@ -44,5 +49,5 @@ multilinugal bul, onun üzerinde de dene
 **TODO**
 - [x] Finetuned model üzerinde inference al
 - [x] İrrelevant, partially relevant, relevant scorelarına göre histogram yap
-- [ ] multilingual model bul ve inference al
+- [x] multilingual model bul ve inference al
 - [ ] multilingual mıdeli fine tune et
