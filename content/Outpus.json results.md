@@ -33,21 +33,32 @@ Multilingual - jhgan/ko-sroberta-multitask
 - Relevant answers in top-5:  11
 
 Multilingual - Alibaba-NLP/gte-multilingual-base
+ - Döndüğü top-5'ın relevance scorelar çok çok daha yüksek 0.6 larde
 - Relevant answer in first answer:  13
 - Partial answers in top-5:  9
 - Relevant answers in top-5:  23
+- Histogram results:
+	- There are 16 reviews with "Partially Relevant"![[Pasted image 20240819140416.png]]
+	- There are 25 reviews with "Relevant"![[Pasted image 20240819140426.png]]
+	- There are 69 reviews with "Irrelevant"![[Pasted image 20240819140433.png]]
 
 
 
+Finetuned Alibaba NLP
+- Relevant answer in first answer:  3
+- Partial answers in top-5:  4
+- Relevant answers in top-5:  8
 
-query chunk class larına göre histogram yap score larına göre
 
-irrelvanta verilen score lar, relevant scoreları, partially relevant socreları histogram yap
-finetune yaptığım modelde dene, finetune sonrası oğuzhan sahin ile compare et
-multilinugal bul, onun üzerinde de dene
+
 
 **TODO**
 - [x] Finetuned model üzerinde inference al
 - [x] İrrelevant, partially relevant, relevant scorelarına göre histogram yap
 - [x] multilingual model bul ve inference al
-- [ ] multilingual mıdeli fine tune et
+- [x] multilingual mıdeli fine tune et
+- [x] irrelvanta verilen score lar, relevant scoreları, partially relevant socreları histogram yap
+- [x] finetune yaptığım modelde dene, 
+- [x] finetune sonrası oğuzhan sahin ile compare et
+- [x] multilinugal bul, onun üzerinde de dene
+- [x] query chunk class larına göre histogram yap score larına göre

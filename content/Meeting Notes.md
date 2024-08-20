@@ -93,14 +93,27 @@ uymayanlar fazlaysa uymayanlara ne yapabilriz
 ~~deep learning specialization kursu Module modle gidelim learning altına subtask aç~~
 
 
-Açılacak tasklar
- - [ ] Coursera DLS module3
- - [ ] Coursera DLS module5
- - [ ] Datasetindeki query'nin eşşleştiği contexti bul
- - [ ] Datasetini structured hale getir
 
 
 base chunk önemli değil
 query ile retrieved chunka bakıp related olup olmadığına bak
 
 bu json dosyası verileriyle modellerle bir inference al karşılaştırma yap
+
+cuda
+aliaba nlp ne kadar hızlı çalışıyor bak
+alibaba nlp için histogram çıkart
+fine tune yap ali baba nlp tekrar inference al histogram vs de bak
+
+llama sunumu için hazırlan #low 
+
+
+
+todo
+- [x] Cuda problemini çöz
+- [x] alibaba nlp ne kadar hızlı çalışıyor bak
+- [x] alibaba nlp histogram çıkart
+- [x] alibaba nlp finetune yap ve tekrar inference alıp histogramını da çıkart
+- [ ] llama sunumu için hazırlan
+- [ ] Coursera dls week5 module3
+
