@@ -62,3 +62,6 @@ Finetuned Alibaba NLP
 - [x] finetune sonrası oğuzhan sahin ile compare et
 - [x] multilinugal bul, onun üzerinde de dene
 - [x] query chunk class larına göre histogram yap score larına göre
+- [ ] sentetk dataseti oluşturma, wikipedia dataseti üzerine, chunkları da kaydediblirsin
+- [ ] query ve contexting geçtiği transformers modeli farklı olabilir
+- [ ] acaba sentence similarity bulmak için query ve contextleri translate edip bir model mi kullansak sonra zaten türkçeiçin train edilmiş verileri direkt veririz llm e

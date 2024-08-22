@@ -12,4 +12,4 @@ title: Welcome to Quartz
  - [[RAG blogpost]]
  - [[PyTorch]]
  - [[Türkçe Sentence Transformers]]
- - 
+ - [[Synthetic Data Generation]]
