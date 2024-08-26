@@ -1,3 +1,5 @@
  - [[Model Araştırması]]
  - [[RAG için dataset araştırması]]
  - [[Outpus.json results]]
+ - bu datasetine mutlaka bakalım https://huggingface.co/datasets/google/xquad/viewer/xquad.tr?row=4
+ - 

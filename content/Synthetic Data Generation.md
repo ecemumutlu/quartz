@@ -14,3 +14,23 @@ Yorumlar
 - 4970 entry ve tüm entrylerin ilk 50k sı vector database olarak kullanılarak alınan sonuç şu şekilde:
 	- Relevant answer in first answer:  3358 / 4970
 	- Relevant answers in top-5:  3995 / 4970
+- Yukarıdaki veriler doğrultusunda model yetersiz bulunursa daha çok sentetik question ürettirilerek finetune alınabilir.
+
+
+todo:
+- [x] Inference sonuçları metriklerine bak (wikirag-tr, outpus.json, sentetik veri)
+	- [x] map@1 
+	- [x] map@5 
+	- [ ] ndcg@5 -> ndcg@k hesaplamak için yeterince **gerçek** değer yok. Şuanki datasetlerinde her birinin **sadece 1 tane gerçek context eşleşmesi** var. Yani @k içinde bir relevancy sırası yapamıyoruz
+	- [ ] ndcg@10 
+- [ ] finetune alıp performans iyileşmesi oluup olmadığına bak
+- [ ] iyileşme durumuna hem wikirag-tr hem output.json a bak
+
+
+## Alibaba-NLP/gte-multilingual-base inference sonuçları
+
+| **datasets / metrics** | **map@1** | **map@5** | **ndcg@5** | **ndcg@10** |
+| :--------------------: | :-------: | :-------: | :--------: | :---------: |
+|    **output.json**     |   0.41    |   0.59    |     x      |      x      |
+|     **wikirag-tr**     |   0.66    |   0.82    |     x      |      x      |
+|   **sentetik_4970**    |   0.68    |   0.73    |     x      |      x      |
