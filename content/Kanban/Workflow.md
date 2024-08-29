@@ -13,6 +13,13 @@ kanban-plugin: board
 - [ ] Tensorflow Neural Machine Translation (seq2seq) Tutorial #ask
 - [ ] [Topic 4: What is JEPA?](https://www.turingpost.com/p/jepa)
 - [ ] [[13-llama3.pdf | Llama-3 ]] oku
+- [ ] Skim through [[8-LayerNormalizationInTheTransformer.pdf|layer norm]]
+
+
+## Reading List
+
+- [ ] [[18-PruningAndDistillation .pdf |Pruning and Distillation]]
+- [ ] [[19-LLM Pruning and Distillation in Practice.pdf|LLM Pruning and Distillation in Practice]] from NVIDIA
 
 
 ## To do
@@ -22,16 +29,21 @@ kanban-plugin: board
 - [ ] multilingual sentence transformers modelleri ile de inference denenebilir
 
 
-## In Progress
-
-- [ ] Skim through [[8-LayerNormalizationInTheTransformer.pdf|layer norm]]
-- [ ] RAG işleme yapılarına bak #meetingNotes
-- [ ] türkçe dataseti bul #meetingNotes
-- [ ] türkçe sentence transformers inference dene
-- [ ] inference denemek için küçük bir dataseti oluştur
-
-
 ## Done
+
+
+
+## To be planned
+
+- [ ] llama3
+- [ ] llama.cpp ve llama.cpp-python kütüphaneleri incelensin
+- [ ] llama.cpp ve gguf formatlarını incele
+- [ ] quantization araştırması - lmstudio
+
+
+***
+
+## Archive
 
 - [ ] Jalammar [attention](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
 - [ ] RNN Intro [Video](https://www.youtube.com/watch?v=UNmqTiOnRfg)
@@ -52,7 +64,11 @@ kanban-plugin: board
 - [ ] [[3-llama2.pdf|Llama-2]]
 - [ ] Llama2 summary
 - [ ] [Sentence Transformers](https://osanseviero.github.io/hackerllama/blog/posts/sentence_embeddings/#sentence-transformers) #meetingNotes
+- [ ] inference denemek için küçük bir dataseti oluştur
+- [ ] türkçe dataseti bul #meetingNotes
+- [ ] türkçe sentence transformers inference dene
 - [ ] ssh configs
+- [ ] RAG işleme yapılarına bak #meetingNotes
 - [ ] micro editor
 - [ ] Coursera DLS module2 week2
 - [ ] [Training and Finetuning Embedding Models with Sentence Transformers v3](https://huggingface.co/blog/train-sentence-transformers) #meetingNotes
@@ -77,17 +93,6 @@ kanban-plugin: board
 - [ ] coursera dls module 2 week3 assignment
 - [ ] kodları snorlax formatına çevir
 - [ ] self-attention yapısına bakabilirsin multihead #meetingNotes
-
-
-## To be planned
-
-- [ ] llama3
-- [ ] llama.cpp ve llama.cpp-python kütüphaneleri incelensin
-- [ ] llama.cpp ve gguf formatlarını incele
-- [ ] quantization araştırması - lmstudio
-
-
-
 
 %% kanban:settings
 ```

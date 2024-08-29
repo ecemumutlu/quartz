@@ -21,16 +21,16 @@ todo:
 - [x] Inference sonuçları metriklerine bak (wikirag-tr, outpus.json, sentetik veri)
 	- [x] map@1 
 	- [x] map@5 
-	- [ ] ndcg@5 -> ndcg@k hesaplamak için yeterince **gerçek** değer yok. Şuanki datasetlerinde her birinin **sadece 1 tane gerçek context eşleşmesi** var. Yani @k içinde bir relevancy sırası yapamıyoruz
-	- [ ] ndcg@10 
-- [ ] finetune alıp performans iyileşmesi oluup olmadığına bak
+	- [x] ndcg@5 -> ndcg@k hesaplamak için yeterince **gerçek** değer yok. Şuanki datasetlerinde her birinin **sadece 1 tane gerçek context eşleşmesi** var. Yani @k içinde bir relevancy sırası yapamıyoruz
+	- [x] ndcg@10 
+- [x] finetune alıp performans iyileşmesi oluup olmadığına bak
 - [ ] iyileşme durumuna hem wikirag-tr hem output.json a bak
 
 
 ## Alibaba-NLP/gte-multilingual-base inference sonuçları
 
-| **datasets / metrics** | **map@1** | **map@5** | **ndcg@5** | **ndcg@10** |
-| :--------------------: | :-------: | :-------: | :--------: | :---------: |
-|    **output.json**     |   0.41    |   0.59    |     x      |      x      |
-|     **wikirag-tr**     |   0.66    |   0.82    |     x      |      x      |
-|   **sentetik_4970**    |   0.68    |   0.73    |     x      |      x      |
+| **datasets / metrics** | **map@1** | **map@5** | map@10 | **ndcg@5** | **ndcg@10** |
+| :--------------------: | :-------: | :-------: | ------ | :--------: | :---------: |
+|    **output.json**     |   0.41    |   0.59    | 0.61   |    0.66    |    0.69     |
+|     **wikirag-tr**     |   0.66    |   0.82    | 0.82   |    0.87    |    0.87     |
+|   **sentetik_4970**    |   0.68    |   0.73    | 0.73   |    0.75    |    0.76     |
