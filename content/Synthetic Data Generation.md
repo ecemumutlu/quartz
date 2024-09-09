@@ -29,8 +29,18 @@ todo:
 
 ## Alibaba-NLP/gte-multilingual-base inference sonuçları
 
+- **Before rerank**
+
 | **datasets / metrics** | **map@1** | **map@5** | map@10 | **ndcg@5** | **ndcg@10** |
 | :--------------------: | :-------: | :-------: | ------ | :--------: | :---------: |
 |    **output.json**     |   0.41    |   0.59    | 0.61   |    0.66    |    0.69     |
 |     **wikirag-tr**     |   0.66    |   0.82    | 0.82   |    0.87    |    0.87     |
 |   **sentetik_4970**    |   0.68    |   0.73    | 0.73   |    0.75    |    0.76     |
+
+- **After rerank**
+
+| **datasets / metrics** | **map@1** | **map@5** | map@10 | **ndcg@5** | **ndcg@10** |
+| :--------------------: | :-------: | :-------: | ------ | :--------: | :---------: |
+|    **output.json**     |           |           |        |            |             |
+|     **wikirag-tr**     |           |           |        |            |             |
+|   **sentetik_4970**    |   0.68    |   0.77    | 0.79   |    0.78    |     0.8     |

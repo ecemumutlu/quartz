@@ -13,3 +13,4 @@ title: Welcome to Quartz
  - [[PyTorch]]
  - [[Türkçe Sentence Transformers]]
  - [[Synthetic Data Generation]]
+ - [[Distillation]]

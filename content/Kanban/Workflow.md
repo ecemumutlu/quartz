@@ -20,6 +20,10 @@ kanban-plugin: board
 
 - [ ] [[18-PruningAndDistillation .pdf |Pruning and Distillation]]
 - [ ] [[19-LLM Pruning and Distillation in Practice.pdf|LLM Pruning and Distillation in Practice]] from NVIDIA
+- [ ] [Knowledge Distillation Blogpost](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764) from Towards Data Science
+- [ ] [Deep Learning — Model Optimization and Compression: Simplified Blogpost](https://towardsdatascience.com/machine-learning-models-compression-and-quantization-simplified-a302ddf326f2) by Towards data science
+- [ ] [Everything You Need To Know About Knowledge Distillation, aka Teacher-Student Model Blogpost](https://amit-s.medium.com/everything-you-need-to-know-about-knowledge-distillation-aka-teacher-student-model-d6ee10fe7276)
+- [ ] 
 
 
 ## To do
@@ -31,6 +35,7 @@ kanban-plugin: board
 
 ## Done
 
+- [ ] https://www.youtube.com/watch?v=TIqf4LMNCjU
 
 
 ## To be planned
